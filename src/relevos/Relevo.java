@@ -11,7 +11,7 @@ public class Relevo{
 
         try {
             h1.start();
-            h2.join();
+            h1.join();
             h2.start();
             h2.join();
             h3.start();
